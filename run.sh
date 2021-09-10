@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cd /home/pi/app_bmi && pwd && lsusb && sleep 2 && ./app_bmi
+cd /home/pi/app_bmi && ./app_bmi && killall -9 app_bmi
